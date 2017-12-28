@@ -1,0 +1,3 @@
+ofxAsdfPixelSort
+ofxAubio
+ofxGif

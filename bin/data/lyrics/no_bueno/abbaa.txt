@@ -1,0 +1,124 @@
+sp
+dr
+
+sp dr
+sp dr sp dr spsspps   spsspps   
+sps  sps   drd spps drdsps   drdsps   
+drd  drd   sps sps 
+
+bl
+tr
+bl tr
+bl tr bl tr bllblb   bllblb   
+bll  bll   bllb blb bllbblb   bllbblb   
+bllb  bllb   trt blb 
+
+fr
+wr
+fr wr
+fr wr fr wr frfwrrw   frfwrrw   
+frf  frf   frrf wrrw wrrwwrr   wrrwwrr   
+wrrw  wrrw   wrr wrr 
+
+
+st
+cl
+st cl
+st cl st cl cllccll   cllccll   
+cllc  cllc   stts cll cllcsts   cllcsts   
+cllc  cllc   cll sts 
+
+cl
+bl
+cl bl
+cl bl cl bl clcblb   clcblb   
+clc  clc   cllc blb bllbllb   bllbllb   
+bll  bll   cllc bllb 
+
+
+tr
+wr
+tr wr
+tr wr tr wr trttrrt   trttrrt   
+trt  trt   wrw trrt trrtwrrw   trrtwrrw   
+trrt  trrt   wrr wrrw 
+
+ str
+spl
+str spl
+str spl str spl strrtsspls   strrtsspls   
+strrts  strrts   spll spls strrstrrts   strrstrrts   
+strr  strr   strs strrts 
+
+
+thr
+thr
+
+thr thr
+thr thr thr thr thrrthrr   thrrthrr   
+thrr  thrr   thrt thrr thrtthrt   thrtthrt   
+thrt  thrt   thrr thrt 
+
+thr
+spr
+
+thr spr
+thr spr thr spr sprrsprs   sprrsprs   
+sprr  sprr   thrrht sprs sprrpssprs   sprrpssprs   
+sprrps  sprrps   thrrht sprs 
+
+scr
+spl
+
+scr spl
+scr spl scr spl spllpsscrrcs   spllpsscrrcs   
+spllps  spllps   spllps scrrcs scrrspllps   scrrspllps   
+scrr  scrr   scrrcs spllps 
+
+spl
+spl
+
+spl spl
+spl spl spl spl splsspllps   splsspllps   
+spls  spls   spls spllps spllpsspls   spllpsspls   
+spllps  spllps   spllps spls 
+
+str
+spl
+
+str spl
+str spl str spl strsspls   strsspls   
+strs  strs   strr spls strsspllps   strsspllps   
+strs  strs   spll spllps 
+
+str
+spl
+
+str spl
+str spl str spl splsspll   splsspll   
+spls  spls   spls spll spllstrrts   spllstrrts   
+spll  spll   spls strrts 
+
+ sw
+ck
+
+sw ck
+sw ck sw ck ckkcsww   ckkcsww   
+ckkc  ckkc   sww sww swsswws   swsswws   
+sws  sws   ckc swws 
+
+ph
+ck
+
+ph ck
+ph ck ph ck phhpckkc   phhpckkc   
+phhp  phhp   ckkc ckkc ckkcphh   ckkcphh   
+ckkc  ckkc   ckc phh 
+
+ng
+sn
+
+ng sn
+ng sn ng sn ngnsns   ngnsns   
+ngn  ngn   sns sns snsngn   snsngn   
+sns  sns   ngg ngn 

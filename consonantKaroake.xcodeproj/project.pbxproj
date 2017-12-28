@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0FA88A3B38DC2998DE725E85 /* qSound.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00C5CDD916D8ECAF21F5A2BE /* qSound.cpp */; };
+		101D2DB773940813A5C898CD /* ofxAubioPitch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 93CAC8A94359FD331BAD8CFA /* ofxAubioPitch.cpp */; };
+		2B56348FB1EE000F58E06E34 /* fft.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 461B04DD94431B81C992C336 /* fft.cpp */; };
+		45AB796B397EBE42A47AB0D6 /* droneScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B119A240062A0E44AD0B9514 /* droneScene.cpp */; };
+		479DCA850DD8BB469A777AD4 /* ofxAubioBeat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A96B8F6D2ECF14F9304EBD6C /* ofxAubioBeat.cpp */; };
+		67383740F5CC47ED5F955A76 /* ofxAubioMelBands.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 776A1553D592FD9AA388C543 /* ofxAubioMelBands.cpp */; };
+		6F0D599D9FD124B23D0E0F8D /* baseScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 10E77EFB672AD13F3F3639CB /* baseScene.cpp */; };
+		710F4871FE0D1D8B0EE9C593 /* particle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEA22E8E95CAC777D565291C /* particle.cpp */; };
+		762D1C22F7D63D5ABF8297D5 /* abzHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95AA9DE9754143A17B439D19 /* abzHelper.cpp */; };
+		7B44AB6E1211850A463FC54D /* qLyric.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44A9C3FE5EC97B9D39CC3131 /* qLyric.cpp */; };
+		94E2C28F73FB4AB367A3888B /* qImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8719D81301285583F7D5DA10 /* qImage.cpp */; };
+		9C7B8B4D99CDFC508E76CC3A /* ofxAubioOnset.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A90A4B17BBB4CB627CA22C4 /* ofxAubioOnset.cpp */; };
+		9D8D3DD2B97877B7C7C0730E /* ofxGif.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 313F0056CDDE4BE00464737E /* ofxGif.cpp */; };
+		AC3776A62110DF2902621CCC /* fftOctaveAnalyzer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9C333E4FD00231BCCB58EE1 /* fftOctaveAnalyzer.cpp */; };
+		BC0FBBDF9DCD0973E54923BB /* oceanScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F21671FA67EDE75AF6C08002 /* oceanScene.cpp */; };
+		C60077973A257D8F44947E2E /* ofxAubioBlock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 737C0C27DB7B0C9484DCEBAE /* ofxAubioBlock.cpp */; };
+		E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4328148138ABC890047C5CB /* openFrameworksDebug.a */; };
+		E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1D0A3A1BDC003C02F2 /* main.cpp */; };
+		E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */; };
+		F0C6276ABFB496443A876291 /* qVideo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9849FED412318BEED9C6B7E3 /* qVideo.cpp */; };
+		F1A86AD839751CBC6304A828 /* ofxAsdfPixelSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12EC513891C7620E3BF7EC84 /* ofxAsdfPixelSort.cpp */; };
+		F50464071FB4DCA5005EE4BE /* aubio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F50464061FB4DCA5005EE4BE /* aubio.framework */; };
+		F5BBC1EE1FB8BE7600D03FA3 /* rainforestScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5BBC1EC1FB8BE7600D03FA3 /* rainforestScene.cpp */; };
+		F5BBC1F11FB8C1BE00D03FA3 /* wheatfieldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5BBC1EF1FB8C1BE00D03FA3 /* wheatfieldScene.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E4328147138ABC890047C5CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E4B27C1510CBEB8E00536013;
+			remoteInfo = openFrameworks;
+		};
+		E4EEB9AB138B136A00A80321 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E4B27C1410CBEB8E00536013;
+			remoteInfo = openFrameworks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E4C2427710CC5ABF004149E2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		00C5CDD916D8ECAF21F5A2BE /* qSound.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = qSound.cpp; path = src/components/qSound.cpp; sourceTree = SOURCE_ROOT; };
+		05732952F4C77CD19D23020A /* droneScene.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = droneScene.h; path = src/scenes/droneScene.h; sourceTree = SOURCE_ROOT; };
+		0984191B2003C1E86CF4C57A /* ofxAubioOnset.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxAubioOnset.h; path = ../../../addons/ofxAubio/src/ofxAubioOnset.h; sourceTree = SOURCE_ROOT; };
+		10E77EFB672AD13F3F3639CB /* baseScene.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = baseScene.cpp; path = src/scenes/baseScene.cpp; sourceTree = SOURCE_ROOT; };
+		12EC513891C7620E3BF7EC84 /* ofxAsdfPixelSort.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxAsdfPixelSort.cpp; path = ../../../addons/ofxAsdfPixelSort/src/ofxAsdfPixelSort.cpp; sourceTree = SOURCE_ROOT; };
+		1FD08B4B8D3CF3BA2AD0861A /* ofxGif.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxGif.h; path = ../../../addons/ofxGif/src/ofxGif.h; sourceTree = SOURCE_ROOT; };
+		238BB8FC8860C7A7012B2E27 /* ofxAubioMelBands.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxAubioMelBands.h; path = ../../../addons/ofxAubio/src/ofxAubioMelBands.h; sourceTree = SOURCE_ROOT; };
+		2B2F4D3A66717960B8C47C11 /* ofxAsdfPixelSort.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxAsdfPixelSort.h; path = ../../../addons/ofxAsdfPixelSort/src/ofxAsdfPixelSort.h; sourceTree = SOURCE_ROOT; };
+		3123FC43CDB08480B2226A91 /* baseScene.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = baseScene.h; path = src/scenes/baseScene.h; sourceTree = SOURCE_ROOT; };
+		313F0056CDDE4BE00464737E /* ofxGif.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxGif.cpp; path = ../../../addons/ofxGif/src/ofxGif.cpp; sourceTree = SOURCE_ROOT; };
+		3B6AFA97F893CE28547CFCDC /* ofxAubio.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxAubio.h; path = ../../../addons/ofxAubio/src/ofxAubio.h; sourceTree = SOURCE_ROOT; };
+		44A9C3FE5EC97B9D39CC3131 /* qLyric.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = qLyric.cpp; path = src/components/qLyric.cpp; sourceTree = SOURCE_ROOT; };
+		461B04DD94431B81C992C336 /* fft.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = fft.cpp; path = src/references/fft.cpp; sourceTree = SOURCE_ROOT; };
+		49F85E984C78AF8983090913 /* qSound.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = qSound.h; path = src/components/qSound.h; sourceTree = SOURCE_ROOT; };
+		4B17A983E507AB0B3F71A2D6 /* ofxAubioBlock.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxAubioBlock.h; path = ../../../addons/ofxAubio/src/ofxAubioBlock.h; sourceTree = SOURCE_ROOT; };
+		7345454A8AEBF397B208F8A3 /* particle.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = particle.h; path = src/references/particle.h; sourceTree = SOURCE_ROOT; };
+		737C0C27DB7B0C9484DCEBAE /* ofxAubioBlock.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxAubioBlock.cpp; path = ../../../addons/ofxAubio/src/ofxAubioBlock.cpp; sourceTree = SOURCE_ROOT; };
+		776A1553D592FD9AA388C543 /* ofxAubioMelBands.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxAubioMelBands.cpp; path = ../../../addons/ofxAubio/src/ofxAubioMelBands.cpp; sourceTree = SOURCE_ROOT; };
+		796DDA25C7AF57A9812687C4 /* qImage.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = qImage.h; path = src/components/qImage.h; sourceTree = SOURCE_ROOT; };
+		8719D81301285583F7D5DA10 /* qImage.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = qImage.cpp; path = src/components/qImage.cpp; sourceTree = SOURCE_ROOT; };
+		8909AEA25DFCF5F344BCE143 /* oceanScene.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = oceanScene.h; path = src/scenes/oceanScene.h; sourceTree = SOURCE_ROOT; };
+		8A90A4B17BBB4CB627CA22C4 /* ofxAubioOnset.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxAubioOnset.cpp; path = ../../../addons/ofxAubio/src/ofxAubioOnset.cpp; sourceTree = SOURCE_ROOT; };
+		8C61C8C279F46964D6D938AE /* fft.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = fft.h; path = src/references/fft.h; sourceTree = SOURCE_ROOT; };
+		8D6ADA1F66537097CE36652C /* fftOctaveAnalyzer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = fftOctaveAnalyzer.h; path = src/references/fftOctaveAnalyzer.h; sourceTree = SOURCE_ROOT; };
+		93CAC8A94359FD331BAD8CFA /* ofxAubioPitch.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxAubioPitch.cpp; path = ../../../addons/ofxAubio/src/ofxAubioPitch.cpp; sourceTree = SOURCE_ROOT; };
+		95AA9DE9754143A17B439D19 /* abzHelper.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = abzHelper.cpp; path = src/references/abzHelper.cpp; sourceTree = SOURCE_ROOT; };
+		9849FED412318BEED9C6B7E3 /* qVideo.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = qVideo.cpp; path = src/components/qVideo.cpp; sourceTree = SOURCE_ROOT; };
+		9D2C29B96659EBB7A0C5672F /* ofxAubioPitch.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxAubioPitch.h; path = ../../../addons/ofxAubio/src/ofxAubioPitch.h; sourceTree = SOURCE_ROOT; };
+		A96B8F6D2ECF14F9304EBD6C /* ofxAubioBeat.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxAubioBeat.cpp; path = ../../../addons/ofxAubio/src/ofxAubioBeat.cpp; sourceTree = SOURCE_ROOT; };
+		A9C333E4FD00231BCCB58EE1 /* fftOctaveAnalyzer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = fftOctaveAnalyzer.cpp; path = src/references/fftOctaveAnalyzer.cpp; sourceTree = SOURCE_ROOT; };
+		B119A240062A0E44AD0B9514 /* droneScene.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = droneScene.cpp; path = src/scenes/droneScene.cpp; sourceTree = SOURCE_ROOT; };
+		BA69C4B8D8BBA55310431E32 /* qVideo.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = qVideo.h; path = src/components/qVideo.h; sourceTree = SOURCE_ROOT; };
+		C3B0B16CE66C6AB165BAE062 /* abzHelper.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = abzHelper.h; path = src/references/abzHelper.h; sourceTree = SOURCE_ROOT; };
+		CEA22E8E95CAC777D565291C /* particle.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = particle.cpp; path = src/references/particle.cpp; sourceTree = SOURCE_ROOT; };
+		D4E6920C542A8B8FB009AB89 /* qLyric.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = qLyric.h; path = src/components/qLyric.h; sourceTree = SOURCE_ROOT; };
+		E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = openFrameworksLib.xcodeproj; path = ../../../libs/openFrameworksCompiled/project/osx/openFrameworksLib.xcodeproj; sourceTree = SOURCE_ROOT; };
+		E4B69B5B0A3A1756003C02F2 /* consonantKaroakeDebug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = consonantKaroakeDebug.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4B69E1D0A3A1BDC003C02F2 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
+		E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofApp.cpp; path = src/ofApp.cpp; sourceTree = SOURCE_ROOT; };
+		E4B69E1F0A3A1BDC003C02F2 /* ofApp.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = ofApp.h; path = src/ofApp.h; sourceTree = SOURCE_ROOT; };
+		E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.xml; path = "openFrameworks-Info.plist"; sourceTree = "<group>"; };
+		E4EB691F138AFCF100A09F29 /* CoreOF.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = CoreOF.xcconfig; path = ../../../libs/openFrameworksCompiled/project/osx/CoreOF.xcconfig; sourceTree = SOURCE_ROOT; };
+		E4EB6923138AFD0F00A09F29 /* Project.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Project.xcconfig; sourceTree = "<group>"; };
+		E6C687AA79F145165EF64E4B /* ofxAubioBeat.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxAubioBeat.h; path = ../../../addons/ofxAubio/src/ofxAubioBeat.h; sourceTree = SOURCE_ROOT; };
+		F21671FA67EDE75AF6C08002 /* oceanScene.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = oceanScene.cpp; path = src/scenes/oceanScene.cpp; sourceTree = SOURCE_ROOT; };
+		F50464061FB4DCA5005EE4BE /* aubio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = aubio.framework; sourceTree = "<group>"; };
+		F5BBC1EC1FB8BE7600D03FA3 /* rainforestScene.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = rainforestScene.cpp; path = scenes/rainforestScene.cpp; sourceTree = "<group>"; };
+		F5BBC1ED1FB8BE7600D03FA3 /* rainforestScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = rainforestScene.h; path = scenes/rainforestScene.h; sourceTree = "<group>"; };
+		F5BBC1EF1FB8C1BE00D03FA3 /* wheatfieldScene.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = wheatfieldScene.cpp; path = scenes/wheatfieldScene.cpp; sourceTree = "<group>"; };
+		F5BBC1F01FB8C1BE00D03FA3 /* wheatfieldScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = wheatfieldScene.h; path = scenes/wheatfieldScene.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4B69B590A3A1756003C02F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */,
+				F50464071FB4DCA5005EE4BE /* aubio.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		280462C1CECEF18AAECE92DE /* src */ = {
+			isa = PBXGroup;
+			children = (
+				9D2C29B96659EBB7A0C5672F /* ofxAubioPitch.h */,
+				E6C687AA79F145165EF64E4B /* ofxAubioBeat.h */,
+				3B6AFA97F893CE28547CFCDC /* ofxAubio.h */,
+				8A90A4B17BBB4CB627CA22C4 /* ofxAubioOnset.cpp */,
+				737C0C27DB7B0C9484DCEBAE /* ofxAubioBlock.cpp */,
+				238BB8FC8860C7A7012B2E27 /* ofxAubioMelBands.h */,
+				93CAC8A94359FD331BAD8CFA /* ofxAubioPitch.cpp */,
+				0984191B2003C1E86CF4C57A /* ofxAubioOnset.h */,
+				4B17A983E507AB0B3F71A2D6 /* ofxAubioBlock.h */,
+				776A1553D592FD9AA388C543 /* ofxAubioMelBands.cpp */,
+				A96B8F6D2ECF14F9304EBD6C /* ofxAubioBeat.cpp */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		36BF1C038F5AEC4D85473FE4 /* scenes */ = {
+			isa = PBXGroup;
+			children = (
+				3123FC43CDB08480B2226A91 /* baseScene.h */,
+				10E77EFB672AD13F3F3639CB /* baseScene.cpp */,
+				05732952F4C77CD19D23020A /* droneScene.h */,
+				B119A240062A0E44AD0B9514 /* droneScene.cpp */,
+				8909AEA25DFCF5F344BCE143 /* oceanScene.h */,
+				F21671FA67EDE75AF6C08002 /* oceanScene.cpp */,
+				F5BBC1EC1FB8BE7600D03FA3 /* rainforestScene.cpp */,
+				F5BBC1ED1FB8BE7600D03FA3 /* rainforestScene.h */,
+				F5BBC1EF1FB8C1BE00D03FA3 /* wheatfieldScene.cpp */,
+				F5BBC1F01FB8C1BE00D03FA3 /* wheatfieldScene.h */,
+			);
+			name = scenes;
+			sourceTree = "<group>";
+		};
+		53BDA0E957B4123A28C53282 /* ofxGif */ = {
+			isa = PBXGroup;
+			children = (
+				F50891CA27EA7B9BF5096FE0 /* src */,
+			);
+			name = ofxGif;
+			sourceTree = "<group>";
+		};
+		59D10AD09C0EDF57BC5FBE63 /* ofxAsdfPixelSort */ = {
+			isa = PBXGroup;
+			children = (
+				FA04D70AE8B42822E959EC5A /* src */,
+			);
+			name = ofxAsdfPixelSort;
+			sourceTree = "<group>";
+		};
+		65A0BDBA3A16D6F3D73C3AED /* components */ = {
+			isa = PBXGroup;
+			children = (
+				BA69C4B8D8BBA55310431E32 /* qVideo.h */,
+				9849FED412318BEED9C6B7E3 /* qVideo.cpp */,
+				796DDA25C7AF57A9812687C4 /* qImage.h */,
+				8719D81301285583F7D5DA10 /* qImage.cpp */,
+				49F85E984C78AF8983090913 /* qSound.h */,
+				44A9C3FE5EC97B9D39CC3131 /* qLyric.cpp */,
+				D4E6920C542A8B8FB009AB89 /* qLyric.h */,
+				00C5CDD916D8ECAF21F5A2BE /* qSound.cpp */,
+			);
+			name = components;
+			sourceTree = "<group>";
+		};
+		6948EE371B920CB800B5AC1A /* local_addons */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = local_addons;
+			sourceTree = "<group>";
+		};
+		93621CC75EED5D310C6ADC19 /* ofxAubio */ = {
+			isa = PBXGroup;
+			children = (
+				280462C1CECEF18AAECE92DE /* src */,
+			);
+			name = ofxAubio;
+			sourceTree = "<group>";
+		};
+		BB4B014C10F69532006C3DED /* addons */ = {
+			isa = PBXGroup;
+			children = (
+				59D10AD09C0EDF57BC5FBE63 /* ofxAsdfPixelSort */,
+				93621CC75EED5D310C6ADC19 /* ofxAubio */,
+				53BDA0E957B4123A28C53282 /* ofxGif */,
+			);
+			name = addons;
+			sourceTree = "<group>";
+		};
+		E4328144138ABC890047C5CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4328148138ABC890047C5CB /* openFrameworksDebug.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4B69B4A0A3A1720003C02F2 = {
+			isa = PBXGroup;
+			children = (
+				E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */,
+				E4EB6923138AFD0F00A09F29 /* Project.xcconfig */,
+				E4B69E1C0A3A1BDC003C02F2 /* src */,
+				E4EEC9E9138DF44700A80321 /* openFrameworks */,
+				BB4B014C10F69532006C3DED /* addons */,
+				6948EE371B920CB800B5AC1A /* local_addons */,
+				E4B69B5B0A3A1756003C02F2 /* consonantKaroakeDebug.app */,
+				F50464061FB4DCA5005EE4BE /* aubio.framework */,
+			);
+			sourceTree = "<group>";
+		};
+		E4B69E1C0A3A1BDC003C02F2 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				E4B69E1D0A3A1BDC003C02F2 /* main.cpp */,
+				E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */,
+				E4B69E1F0A3A1BDC003C02F2 /* ofApp.h */,
+				36BF1C038F5AEC4D85473FE4 /* scenes */,
+				F8FBF80D18F849DF85FEAC06 /* references */,
+				65A0BDBA3A16D6F3D73C3AED /* components */,
+			);
+			path = src;
+			sourceTree = SOURCE_ROOT;
+		};
+		E4EEC9E9138DF44700A80321 /* openFrameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4EB691F138AFCF100A09F29 /* CoreOF.xcconfig */,
+				E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */,
+			);
+			name = openFrameworks;
+			sourceTree = "<group>";
+		};
+		F50891CA27EA7B9BF5096FE0 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				1FD08B4B8D3CF3BA2AD0861A /* ofxGif.h */,
+				313F0056CDDE4BE00464737E /* ofxGif.cpp */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		F8FBF80D18F849DF85FEAC06 /* references */ = {
+			isa = PBXGroup;
+			children = (
+				CEA22E8E95CAC777D565291C /* particle.cpp */,
+				8C61C8C279F46964D6D938AE /* fft.h */,
+				8D6ADA1F66537097CE36652C /* fftOctaveAnalyzer.h */,
+				461B04DD94431B81C992C336 /* fft.cpp */,
+				95AA9DE9754143A17B439D19 /* abzHelper.cpp */,
+				A9C333E4FD00231BCCB58EE1 /* fftOctaveAnalyzer.cpp */,
+				7345454A8AEBF397B208F8A3 /* particle.h */,
+				C3B0B16CE66C6AB165BAE062 /* abzHelper.h */,
+			);
+			name = references;
+			sourceTree = "<group>";
+		};
+		FA04D70AE8B42822E959EC5A /* src */ = {
+			isa = PBXGroup;
+			children = (
+				12EC513891C7620E3BF7EC84 /* ofxAsdfPixelSort.cpp */,
+				2B2F4D3A66717960B8C47C11 /* ofxAsdfPixelSort.h */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4B69B5A0A3A1756003C02F2 /* consonantKaroake */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4B69B5F0A3A1757003C02F2 /* Build configuration list for PBXNativeTarget "consonantKaroake" */;
+			buildPhases = (
+				E4B69B580A3A1756003C02F2 /* Sources */,
+				E4B69B590A3A1756003C02F2 /* Frameworks */,
+				E4B6FFFD0C3F9AB9008CF71C /* ShellScript */,
+				E4C2427710CC5ABF004149E2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4EEB9AC138B136A00A80321 /* PBXTargetDependency */,
+			);
+			name = consonantKaroake;
+			productName = myOFApp;
+			productReference = E4B69B5B0A3A1756003C02F2 /* consonantKaroakeDebug.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4B69B4C0A3A1720003C02F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+			};
+			buildConfigurationList = E4B69B4D0A3A1720003C02F2 /* Build configuration list for PBXProject "consonantKaroake" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = E4B69B4A0A3A1720003C02F2;
+			productRefGroup = E4B69B4A0A3A1720003C02F2;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = E4328144138ABC890047C5CB /* Products */;
+					ProjectRef = E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				E4B69B5A0A3A1756003C02F2 /* consonantKaroake */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		E4328148138ABC890047C5CB /* openFrameworksDebug.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = openFrameworksDebug.a;
+			remoteRef = E4328147138ABC890047C5CB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E4B6FFFD0C3F9AB9008CF71C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "mkdir -p \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/\"\n# Copy default icon file into App/Resources\nrsync -aved \"$ICON_FILE\" \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/\"\n# Copy libfmod and change install directory for fmod to run\nrsync -aved ../../../libs/fmodex/lib/osx/libfmodex.dylib \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Frameworks/\";\ninstall_name_tool -change @executable_path/libfmodex.dylib @executable_path/../Frameworks/libfmodex.dylib \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/MacOS/$PRODUCT_NAME\";\n# Copy GLUT framework (must remove for AppStore submissions)\nrsync -aved ../../../libs/glut/lib/osx/GLUT.framework \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Frameworks/\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4B69B580A3A1756003C02F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */,
+				E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */,
+				BC0FBBDF9DCD0973E54923BB /* oceanScene.cpp in Sources */,
+				6F0D599D9FD124B23D0E0F8D /* baseScene.cpp in Sources */,
+				45AB796B397EBE42A47AB0D6 /* droneScene.cpp in Sources */,
+				710F4871FE0D1D8B0EE9C593 /* particle.cpp in Sources */,
+				2B56348FB1EE000F58E06E34 /* fft.cpp in Sources */,
+				762D1C22F7D63D5ABF8297D5 /* abzHelper.cpp in Sources */,
+				AC3776A62110DF2902621CCC /* fftOctaveAnalyzer.cpp in Sources */,
+				F0C6276ABFB496443A876291 /* qVideo.cpp in Sources */,
+				94E2C28F73FB4AB367A3888B /* qImage.cpp in Sources */,
+				7B44AB6E1211850A463FC54D /* qLyric.cpp in Sources */,
+				0FA88A3B38DC2998DE725E85 /* qSound.cpp in Sources */,
+				F1A86AD839751CBC6304A828 /* ofxAsdfPixelSort.cpp in Sources */,
+				9C7B8B4D99CDFC508E76CC3A /* ofxAubioOnset.cpp in Sources */,
+				C60077973A257D8F44947E2E /* ofxAubioBlock.cpp in Sources */,
+				F5BBC1EE1FB8BE7600D03FA3 /* rainforestScene.cpp in Sources */,
+				F5BBC1F11FB8C1BE00D03FA3 /* wheatfieldScene.cpp in Sources */,
+				101D2DB773940813A5C898CD /* ofxAubioPitch.cpp in Sources */,
+				67383740F5CC47ED5F955A76 /* ofxAubioMelBands.cpp in Sources */,
+				479DCA850DD8BB469A777AD4 /* ofxAubioBeat.cpp in Sources */,
+				9D8D3DD2B97877B7C7C0730E /* ofxGif.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E4EEB9AC138B136A00A80321 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = openFrameworks;
+			targetProxy = E4EEB9AB138B136A00A80321 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E4B69B4E0A3A1720003C02F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/bin/";
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
+				GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO = NO;
+				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					src,
+					src/components,
+					src/references,
+					src/scenes,
+					../../../addons/ofxAsdfPixelSort/src,
+					../../../addons/ofxAubio/src,
+					../../../addons/ofxGif/src,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-D__MACOSX_CORE__",
+					"-mtune=native",
+				);
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E4B69B4F0A3A1720003C02F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/bin/";
+				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = YES;
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_UNROLL_LOOPS = YES;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
+				GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO = NO;
+				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					src,
+					src/components,
+					src/references,
+					src/scenes,
+					../../../addons/ofxAsdfPixelSort/src,
+					../../../addons/ofxAubio/src,
+					../../../addons/ofxGif/src,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-D__MACOSX_CORE__",
+					"-mtune=native",
+				);
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E4B69B600A3A1757003C02F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					"$(PROJECT_DIR)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../libs/glut/lib/osx\"";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = NONE;
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					src,
+					src/components,
+					src/references,
+					src/scenes,
+					../../../addons/ofxAsdfPixelSort/src,
+					../../../addons/ofxAubio/src,
+					../../../addons/ofxGif/src,
+				);
+				ICON = "$(ICON_NAME_DEBUG)";
+				ICON_FILE = "$(ICON_FILE_PATH)$(ICON)";
+				INFOPLIST_FILE = "openFrameworks-Info.plist";
+				INSTALL_PATH = /Applications;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)Debug";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E4B69B610A3A1757003C02F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					"$(PROJECT_DIR)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../libs/glut/lib/osx\"";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = NONE;
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					src,
+					src/components,
+					src/references,
+					src/scenes,
+					../../../addons/ofxAsdfPixelSort/src,
+					../../../addons/ofxAubio/src,
+					../../../addons/ofxGif/src,
+				);
+				ICON = "$(ICON_NAME_RELEASE)";
+				ICON_FILE = "$(ICON_FILE_PATH)$(ICON)";
+				INFOPLIST_FILE = "openFrameworks-Info.plist";
+				INSTALL_PATH = /Applications;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+				baseConfigurationReference = E4EB6923138AFD0F00A09F29;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4B69B4D0A3A1720003C02F2 /* Build configuration list for PBXProject "consonantKaroake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B69B4E0A3A1720003C02F2 /* Debug */,
+				E4B69B4F0A3A1720003C02F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4B69B5F0A3A1757003C02F2 /* Build configuration list for PBXNativeTarget "consonantKaroake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B69B600A3A1757003C02F2 /* Debug */,
+				E4B69B610A3A1757003C02F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4B69B4C0A3A1720003C02F2 /* Project object */;
+}
